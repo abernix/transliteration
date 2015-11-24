@@ -1,4 +1,4 @@
-# Reaction Transliteration
+# Transliteration
 Transliteration with Slugify
 
 ## Installation
