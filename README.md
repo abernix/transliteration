@@ -17,7 +17,14 @@ Transliteration('你好，世界'); // ni-hao-shi-jie
 Transliteration('你好，世界', {lowercase: false, separator: '_'}); // Ni_Hao_Shi_Jie
 ```
 
-Slugify:
+or slugify
+
+```
+Transliteration.slugify("你好 世界");
+"ni-hao-shi-jie"
+```
+
+As a direct drop in to using getSlug().
 
 ```
 getSlug = function (slugString) {
