@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Transliteration - transliteration with slugify",
-  name: "ongoworks:transliteration",
+  name: "abernix:transliteration",
   version: "0.1.1",
-  git: "https://github.com/ongoworks/transliteration.git"
+  git: "https://github.com/abernix/transliteration.git"
 });
 
 Npm.depends({
