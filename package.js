@@ -12,7 +12,7 @@ Npm.depends({
 Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.2");
 
-  api.addFiles("lib/transliteration.min.js", "client");
+  api.addFiles("lib/transliteration.js", "client");
   api.addFiles("transliteration.js", ["server"]);
   api.export("Transliteration");
 });
